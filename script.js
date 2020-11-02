@@ -26,4 +26,38 @@ $(document).ready(function(){
   $('#hour16 .description').val(localStorage.getItem('hour16'))
   $('#hour17 .description').val(localStorage.getItem('hour17'))
 
+  function tracker(){
+
+    var currentHour = moment().hour()
+
+    // loop over time div
+    $('.time-block').each(function(){
+
+      var hourDiv = parseInt($(this).attr("id").split("hour")[1]);
+
+      // if before current time then
+      if (hourDiv < currentHour) {
+        $(this).addClass('past')
+        $(this).removeClass('present')
+        $(this).removeClass('future')
+      }
+      // if current time
+      else if (hourDiv === currentHour) {
+        $(this).removeClass('past');
+        $(this).addClass('present');
+        $(this).removeClass('future');
+
+      }
+      // if future
+      else {
+        $(this).removeClass('present');
+        $(this).removeClass('past');
+        $(this).addClass('future');
+      }
+
+
+    })
+
+  }
+  tracker()
 })
