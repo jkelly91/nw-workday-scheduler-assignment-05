@@ -35,8 +35,10 @@ https://jkelly91.github.io/nw-workday-scheduler-assignment-05/
 
 3. click the save button to save the content
 
+4. Refresh the page to see the content is still there
 
-![Example of Password generator]()
+
+![Example of workday scheduler]()
 
 
 
