@@ -20,7 +20,7 @@ Acceptance Criteria
 
 - Displays current date and time
 - Application loads with no errors
-- Saveable events 
+- Saveable events
 - Ease of navigation
 - Deployed to github
 
@@ -28,19 +28,15 @@ Acceptance Criteria
 ## Usage
 
 1. Follow this LINK
-https://jkelly91.github.io/nw-password-generator-assignment-03/
+https://jkelly91.github.io/nw-workday-scheduler-assignment-05/
 
 
-2. Create a random password by pressing "Generate Password" button
+2. choose a time slot and write tasks or content to be saved
 
-3. Set password length (Minimum of 10 recommended)
+3. click the save button to save the content
 
-4. Confirm special characters (Recommended)
-5. Confirm numeric Values (Recommended)
-6. Confirm Lower Case (Recommended)
-7. Confirm Upper Case (Recommended)
 
-![Example of Password generator](https://github.com/jkelly91/nw-password-generator-assignment-03/blob/main/images/03-javascript-homework-demo.png?raw=true)
+![Example of Password generator]()
 
 
 
