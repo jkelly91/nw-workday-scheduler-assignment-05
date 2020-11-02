@@ -38,7 +38,7 @@ https://jkelly91.github.io/nw-workday-scheduler-assignment-05/
 4. Refresh the page to see the content is still there
 
 
-![Example of workday scheduler]()
+![Example of workday scheduler](https://github.com/jkelly91/nw-workday-scheduler-assignment-05/blob/main/images/workday-scheduler-01.PNG)
 
 
 
